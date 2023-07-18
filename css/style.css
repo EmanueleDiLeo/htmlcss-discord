@@ -17,11 +17,30 @@
   display: flex;
 }
 
+/* START BUTTON */
 .bt-small{
   padding: 8px 15px;
-  border-radius: 16px;
-  text-align: center;
+  border-radius: 20px;
   background-color: white;
+}
+
+.bt-big{
+  padding: 15px 20px;
+  border-radius: 26px;
+  background-color: white;
+}
+
+.bg-black{
+  color: white;
+  background-color: black;
+}
+/* END BUTTON */
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  padding: 30px 0px;
 }
 
 a{
@@ -32,15 +51,7 @@ a{
 a:hover{
   text-decoration: none;
   color: #e53171;
- }
-
-/* ***************** DELETE ******************* */
-.debug{
-  background-color: red;
-  border: 1px solid black;
-  min-height: 40px;
 }
-
 
 /* *************************************HEADER **************************************** */
 header{
@@ -68,6 +79,13 @@ header{
   color: white;
 }
 /* *************************************MAIN ************************************************ */
+.section-intro{
+  background-image: url(../img/jumbo.png);
+  background-position: center;
+  background-size:cover;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .section-intro{
   background-color:gold;
@@ -77,19 +95,26 @@ header{
 }
 
 .div-intro-center{
-  width: 65%;
-  max-width: 1000px;
+  width: 90%;
+  max-width: 700px;
   margin: 0 auto;
   height: 300px;
-  background-color: blueviolet
-
+  flex-direction: column;
 }
 
-.div-intro{
-  margin: 40px 0px;
-  display: flex;
-  height: 300px;
-  background-color: blueviolet;
+.div-intro-center p{
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.div-intro-button{
+  margin:30px auto;
+}
+
+.bt-space{
+  margin-right: 20px;
 }
 
 /* ********** group ************/
