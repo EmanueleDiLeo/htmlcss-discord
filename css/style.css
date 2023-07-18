@@ -56,7 +56,12 @@ h2{
 
 h3{
   font-size: 2.5rem;
+}
 
+h4 {
+  font-size: 2rem;
+  padding-bottom: 10px;
+  color: #627fd2;
 }
 
 p{
@@ -191,14 +196,27 @@ header{
 
 footer{
   background-color: black;
-  padding-top: 10px;
+  padding-top: 30px;
+  color: white;
 }
 
+.brand{
+  padding-top: 10px;
+}
+.brand p{
+  padding-right:20px;
+}
+
+
 .div-social{
+  flex-direction: column;
   height: 300px;
   width: 30%;
-  background-color: darkgreen;
   margin-bottom: 20px;
+}
+
+.div-social img{
+  max-width: 30px;
 }
 
 .div-info{
