@@ -1,0 +1,138 @@
+/* ************************************* GENERAL ********************************************* */
+
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+}
+
+/* ***************** DELETE ******************* */
+.debug{
+  background-color: red;
+  border: 1px solid black;
+  min-height: 40px;
+}
+
+
+/* *************************************HEADER **************************************** */
+header{
+  padding: 20px 0;
+  background-color: #255ee9;
+}
+
+
+.box-header{
+  align-items: center;
+  justify-content: space-between;
+  /* display: flex; */
+  height: 80px;
+  /* width: 25%; */
+  background-color: aquamarine;
+}
+
+.link{
+  /* width: 50%; */
+}
+
+
+/* *************************************MAIN ************************************************ */
+
+.section-intro{
+  background-color:gold;
+  padding: 40px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-intro-center{
+  width: 65%;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 300px;
+  background-color: blueviolet
+
+}
+
+.div-intro{
+  margin: 40px 0px;
+  display: flex;
+  height: 300px;
+  background-color: blueviolet;
+}
+
+/* ********** group ************/
+.section-group{
+  background-color: white;
+  padding: 40px 0px;
+}
+
+.div-general-img{
+  width: 65%;
+  height: 300px;
+  background-color: red;
+}
+
+.div-general-text{
+  width: 35%;
+  height: 300px;
+  background-color: chocolate;
+}
+
+.section-voice{
+  background-color:#f6f6f6;
+  padding: 40px 0px;
+}
+
+.delete{
+  height: 500px;
+  background-color: coral;
+}
+
+/* ********************************************FOOTER ************************ */
+
+footer{
+  background-color: black;
+  padding-top: 10px;
+}
+
+.div-social{
+  height: 300px;
+  width: 30%;
+  background-color: darkgreen;
+  margin-bottom: 20px;
+}
+
+.div-info{
+  width: calc(70% / 4);
+  height: 300px;
+  background-color: chartreuse;
+}
+
+.border{
+   border-bottom: 2px solid white;
+}
+
+.ending{
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background-color: cornflowerblue;
+}
+
+.ending-h{
+  height: 40px;
+  background-color: cyan;
+}
+
