@@ -34,6 +34,11 @@
   color: white;
   background-color: black;
 }
+
+.bg-blue{
+  color: white;
+  background-color: #7289da;
+}
 /* END BUTTON */
 
 h1{
@@ -47,6 +52,11 @@ h2{
   font-size: 3rem;
   text-align: left;
   padding-bottom: 30px;
+}
+
+h3{
+  font-size: 2.5rem;
+
 }
 
 p{
@@ -141,14 +151,24 @@ header{
 
 .div-technology{
   padding: 40px 80px;
-  flex-direction: column;
-  align-items: center;
+  /* flex-direction: column;
+  align-items: center; */
 }
 
-.div-technology p, .div-technology h2{
+.div-technology p, 
+.div-technology h2, 
+.div-technology h3
+{
   text-align: center;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.div-technology h3{
+  background-image: url(../img/stars.svg);
+  background-size: 600px;
+  margin: 20px auto;
+  max-width: 800px; 
 }
 
 .div-technology img{
@@ -159,6 +179,12 @@ header{
 .section-voice{
   background-color:#f6f6f6;
   padding: 40px 0px;
+}
+
+
+.div-bt-center{
+  width: 18%;
+  margin: 60px auto;
 }
 
 /* ********************************************FOOTER ************************ */
@@ -182,7 +208,7 @@ footer{
 }
 
 .border{
-   border-bottom: 2px solid white;
+  border-bottom: 2px solid white;
 }
 
 .ending{
