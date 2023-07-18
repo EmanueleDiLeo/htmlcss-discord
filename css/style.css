@@ -17,6 +17,23 @@
   display: flex;
 }
 
+.bt-small{
+  padding: 8px 15px;
+  border-radius: 16px;
+  text-align: center;
+  background-color: white;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #e53171;
+ }
+
 /* ***************** DELETE ******************* */
 .debug{
   background-color: red;
@@ -27,7 +44,7 @@
 
 /* *************************************HEADER **************************************** */
 header{
-  padding: 20px 0;
+  padding: 10px 0;
   background-color: #255ee9;
 }
 
@@ -35,17 +52,21 @@ header{
 .box-header{
   align-items: center;
   justify-content: space-between;
-  /* display: flex; */
   height: 80px;
-  /* width: 25%; */
-  background-color: aquamarine;
+  background-color: #255ee9;
 }
 
-.link{
-  /* width: 50%; */
+.link ul{
+  list-style: none;
 }
 
+.link ul li{
+  padding: 0px 15px;
+}
 
+.link ul li a{
+  color: white;
+}
 /* *************************************MAIN ************************************************ */
 
 .section-intro{
