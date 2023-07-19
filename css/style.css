@@ -19,12 +19,14 @@
 
 /* START BUTTON */
 .bt-small{
+  display: inline-block;
   padding: 8px 15px;
   border-radius: 20px;
   background-color: white;
 }
 
 .bt-big{
+  display: inline-block;
   padding: 15px 20px;
   border-radius: 26px;
   background-color: white;
@@ -138,9 +140,10 @@ header{
   margin:30px auto;
 }
 
-.bt-space{
+.intro-button a:first-child{
   margin-right: 20px;
 }
+
 
 /* ********** group ************/
 .group{
